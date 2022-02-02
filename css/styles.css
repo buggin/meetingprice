@@ -1,0 +1,23 @@
+.padding-top{
+    padding-top: 10px;
+}
+body::after {
+    content: "";
+    background: url("money-money-money-1241634.jpg");
+    opacity: 0.3;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+  }
+  label{
+      font-weight: bold;
+  }
+  #total{
+      font-weight: bold;
+  }
+  .extra_cont{
+    margin: 60px auto 20px;
+  }
